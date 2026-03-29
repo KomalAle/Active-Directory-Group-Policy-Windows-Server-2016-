@@ -53,11 +53,9 @@ Login as user:LAB1\jdoe
 Run:gpupdate /force
 Log out and log back in.
 
-# Step 9: Verify Policy Application
+# Step 9: Verify Policy Application and  Test Restriction
 Run:gpresult /r
 Confirm: Employee Lockdown Policy
-
-# Step 10: Test Restriction
 open cmd
 Run:control
 Expected result:"Access to Control Panel is blocked"
